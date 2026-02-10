@@ -1,4 +1,3 @@
-getgenv().WebhookURL = ""
 getgenv().ScriptConfig = {
     SellAll = true, -- Set to true unless you want to stop getting items next run
     LockFoodAbove = 5000, -- Automatically Locks/Favorite Food greater than or equal to set number/price
