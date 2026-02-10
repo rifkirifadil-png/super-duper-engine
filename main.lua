@@ -10,6 +10,6 @@ getgenv().ScriptConfig = {
     InteractCooldown = 0.1, -- Cooldown between interaction/pickup, recommended lowest is 0.1
     StatusMenu = true, -- Enables the GUI when in dungeon for cleaner looks, press H to hide or tap the button on top right
     HideFood = 100, -- Hides food in the elevator that are under the value set, set to 0 to disable
-    WaitBeforeVote = 0.1, -- Wait for (number) of second/s before voting.
-    WalkSpeed = 20, -- Changes walkspeed when on dungeon, can only be modified once.
+    WaitBeforeVote = 10, -- Wait for (number) of second/s before voting.
+    WalkSpeed = nil, -- Changes walkspeed when on dungeon, can only be modified once.
 }
